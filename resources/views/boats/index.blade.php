@@ -5,11 +5,14 @@ Barcos
 @endsection
 
 @section('conteudo')
+
+@if(!empty($mensagem))
+<div class="alert alert-success">
+    {{ $mensagem }}
+</div>
+@endif
+
 <a href="/boats/criar" class="btn btn-dark mb-2">Adicionar</a>
-
-<ul class="list-group">
-</ul>
-
 
 <table class="table">
     <thead>

@@ -15,9 +15,10 @@ class BoatsController extends Controller
         $this->boat = $boat;
     }
 
-    public function index() {
+    public function index(Request $request) {
         $boats = Boat::all();
-        return view('boats.index', compact('boats'));
+        $mensagem = $request->session()->get('mensagem');
+        return view('boats.index', compact('boats', 'mensagem'));
     }
 
     public function create() {
@@ -26,7 +27,10 @@ class BoatsController extends Controller
 
     public function store(Request $request) { //get tenta buscar na query string, atributo de rota ou formulario
         $boat = Boat::create($request->all());
+        //manipulando seçao
+        $request->session()->flash('mensagem', "Barco {$boat->id} criado com sucesso {$boat->nome}");
         return redirect('/boats');
+        //flash message: dura somente 1 requisiçao, laravel leu, sumiu
     }
 
     public function edit($id)
@@ -53,9 +57,10 @@ class BoatsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
     */
-    public function destroy($id)
+    public function destroy(Request $request, $id)
     {
         Boat::destroy($id);
-        return redirect()->action('BoatsController@index');
+        $request->session()->flash('mensagem', "Barco removido com sucesso");
+        return redirect('/boats');
     }
 }
