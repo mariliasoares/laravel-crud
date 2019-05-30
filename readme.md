@@ -12,17 +12,30 @@
 CRUD realizado durante o processo seletivo de estágio da Startup RBarcos. Construido com as tecnologias Laravel, PHP 7.3.5, MySQL. O Laravel é um framework de aplicação web com sintaxe expressiva e elegante. Tira a dor do desenvolvimento, facilitando tarefas comuns usadas em muitos projetos da web. Laravel é acessível, poderoso e fornece ferramentas necessárias para aplicativos grandes e robustos.
 
 ## Config
+    
+    Tecnologias necessarias:
+    * Composer
+    * Laravel
+    * MySQL
+    * PHP 7.3.5
+   
 
-    Voce deve ter como pre-requisito um database criado, com o nome 'crud'.
-    $ create database crud;
+    * Install dependencies
+    composer install
 
 ## Run Project
-
+    
+    Voce deve ter como pre-requisito um database criado, com o nome 'crud'.
+    $ create database crud;
+    
     * Clone ou baixe este repositório:
     $ git clone https://github.com/mariliasoares/laravel-crud
     
     * acesse o projeto
     cd crud
+    
+    * Run migrations (tables)
+    php artisan migrate
     
     * Dentro do diretorio do projeto executar:
     php artisan serve
