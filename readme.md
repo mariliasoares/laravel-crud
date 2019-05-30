@@ -20,10 +20,10 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 ### Download Project
 
 First, clone project:
-$ git clone https://github.com/mariliasoares/laravel-crud
+$git clone https://github.com/mariliasoares/laravel-crud
 
 ### Access project
 cd crud
 
-### Config
+## Config
 
