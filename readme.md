@@ -31,8 +31,7 @@ CRUD realizado durante o processo seletivo de estágio da Startup RBarcos. Const
     * Clone ou baixe este repositório:
     $ git clone https://github.com/mariliasoares/laravel-crud
     
-    * acesse o projeto
-    cd crud
+    * acesse o diretorio
     
     * Run migrations (tables)
     php artisan migrate
