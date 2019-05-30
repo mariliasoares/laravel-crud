@@ -60,7 +60,7 @@ class BoatsController extends Controller
     public function destroy(Request $request, $id)
     {
         Boat::destroy($id);
-        $request->session()->flash('mensagem', "Barco removido com sucesso");
+        $request->session()->flash('mensagem', "Barco removido com sucesso!");
         return redirect('/boats');
     }
 }
