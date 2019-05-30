@@ -7,23 +7,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects. Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1400 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-### Download Project
-
-First, clone project:
-$git clone https://github.com/mariliasoares/laravel-crud
-
-### Access project
-cd crud
+## Sobre
+    
+CRUD realizado durante o processo seletivo de estágio da Startup RBarcos. Construido com as tecnologias Laravel, PHP 7.3.5, MySQL. O Laravel é um framework de aplicação web com sintaxe expressiva e elegante. Tira a dor do desenvolvimento, facilitando tarefas comuns usadas em muitos projetos da web. Laravel é acessível, poderoso e fornece ferramentas necessárias para aplicativos grandes e robustos.
 
 ## Config
 
+    Voce deve ter como pre-requisito um database criado, com o nome 'crud'.
+    $ create database crud;
+
+## Run Project
+
+    * Clone ou baixe este repositório:
+    $ git clone https://github.com/mariliasoares/laravel-crud
+    
+    * acesse o projeto
+    cd crud
+    
+    * Dentro do diretorio do projeto executar:
+    php artisan serve
+
+    * Para testar, utilize o software de sua preferência (VS Code, por exemplo) e acesse: http://localhost:8000
