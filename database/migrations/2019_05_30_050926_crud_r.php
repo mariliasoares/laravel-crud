@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CriarTabelaBarcos extends Migration
+class CrudR extends Migration
 {
     /**
      * Run the migrations.
@@ -15,11 +15,11 @@ class CriarTabelaBarcos extends Migration
     {
         Schema::create('boats', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('nameBoat', 40)->nullable();
-            $table->decimal('price')->nullable();
-            $table->string('cidade')->nullable();
-            $table->decimal('boatSize')->nullable();
-            $table->text('boatDescription')->nullable();
+            $table->string('nameBoat', 100);
+            $table->float('price');
+            $table->string('cidade');
+            $table->decimal('boatSize', 5, 2);
+            $table->longText('boatDescription');
 
         });
     }
