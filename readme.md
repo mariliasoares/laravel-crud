@@ -18,10 +18,6 @@ CRUD realizado durante o processo seletivo de estágio da Startup RBarcos. Const
     * Laravel
     * MySQL
     * PHP 7.3.5
-   
-
-    * Install dependencies
-    composer install
 
 ## Run Project
     
@@ -33,10 +29,27 @@ CRUD realizado durante o processo seletivo de estágio da Startup RBarcos. Const
     
     * acesse o diretorio
     
+    * Install dependencies (More information -> https://getcomposer.org/download/)
+    composer install
+    
+    # Create file .env
+    cp .env.example .env
+
+    !IMPORTANT -> Modify .env with your credencials database
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=crud
+    DB_USERNAME=<your_user_name>
+    DB_PASSWORD=<your_password>
+    
+    # Generate key
+    php artisan key:generate
+
     * Run migrations (tables)
     php artisan migrate
     
     * Dentro do diretorio do projeto executar:
     php artisan serve
 
-    * Para testar, utilize o software de sua preferência (VS Code, por exemplo) e acesse: http://localhost:8000
+    * Para testar, utilize o software de sua preferência (VS Code, por exemplo) e acesse: http://localhost:8000/boats
