@@ -21,6 +21,10 @@ CRUD realizado durante o processo seletivo de estágio da Startup RBarcos. Const
 
 ## Run Project
     
+    # descomentar no php.ini a extensão pdo_mysql se utilizar o MySQL como banco de dados. 
+    Para descobrir onde está o php.ini:
+    $ php -i | grep "php.ini"
+    
     Voce deve ter como pre-requisito um database criado, com o nome 'crud'.
     $ create database crud;
     
