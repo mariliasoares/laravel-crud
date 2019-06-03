@@ -28,10 +28,8 @@ CRUD realizado durante o processo seletivo de estágio da Startup RBarcos. Const
     Voce deve ter como pre-requisito um database criado, com o nome 'crud'.
     $ create database crud;
     
-    * Clone ou baixe este repositório:
+    * Clone ou baixe este repositório e acesse o diretório:
     $ git clone https://github.com/mariliasoares/laravel-crud
-    
-    * acesse o diretorio
     
     * Install dependencies (More information -> https://getcomposer.org/download/)
     composer install
