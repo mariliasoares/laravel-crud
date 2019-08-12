@@ -9,7 +9,7 @@
 
 ## Sobre
     
-CRUD realizado durante o processo seletivo de estágio da Startup RBarcos. Construido com as tecnologias Laravel, PHP 7.3.5, MySQL. O Laravel é um framework de aplicação web com sintaxe expressiva e elegante. Tira a dor do desenvolvimento, facilitando tarefas comuns usadas em muitos projetos da web. Laravel é acessível, poderoso e fornece ferramentas necessárias para aplicativos grandes e robustos.
+Construido com as tecnologias Laravel, PHP 7.3.5, MySQL. O Laravel é um framework de aplicação web com sintaxe expressiva e elegante. Tira a dor do desenvolvimento, facilitando tarefas comuns usadas em muitos projetos da web. Laravel é acessível, poderoso e fornece ferramentas necessárias para aplicativos grandes e robustos.
 
 ## Config
     
