@@ -54,4 +54,4 @@ Construido com as tecnologias Laravel, PHP 7.3.5, MySQL. O Laravel é um framewo
     * Dentro do diretorio do projeto executar:
     php artisan serve
 
-    * Para testar, utilize o software de sua preferência (VS Code, por exemplo) e acesse: http://localhost:8000/boats
+    * Para testar, utilize o software de sua preferência (VS Code, por exemplo) e acesse: http://localhost:8000/
